@@ -157,71 +157,70 @@ border-bottom: 1px solid #39d67c;
 }
 /* PC용 CSS */
 @media all and (min-width: 960px){
-    /* 기본CSS */
-    #wrap{
-        position: relative;
-        width: 90%;
-    }
-    /* 인포메이션 부분 */
-    .info_section{
-        order: 0;
-        position: absolute;
-        top: 30px;
-        top: 1.875rem;
-        right: 30px;
-        right: 1.875rem;
-        z-index: 30;
-        width: auto;
-        border-bottom: 0;
-    }
-    .info_list li{
-        width: auto;
-        margin-left: 15px;
-        margin-left: 0.625rem;
-    }
-    .info_list li a{
-        padding: 0;
-    }
-    /* 헤더부분 */
-    .header{
-        order: 1;
-        justify-content: flex-end;
-        position: static;
-    }
-    .logo{
-        width: 12.5%;
+/* 기본CSS */
+#wrap{
+    position: relative;
+    width: 90%;
+}
+/* 인포메이션 부분 */
+.info_section{
+    order: 0;
+    position: absolute;
+    top: 30px;
+    top: 1.875rem;
+    right: 30px;
+    right: 1.875rem;
+    z-index: 30;
+    width: auto;
+    border-bottom: 0;
+}
+.info_list li{
+    width: auto;
+    margin-left: 15px;
+    margin-left: 0.625rem;
+}
+.info_list li a{
+    padding: 0;
+}
+/* 헤더부분 */
+.header{
+    order: 1;
+    justify-content: flex-end;
+    position: static;
+}
+.logo{
+    width: 12.5%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 87.5%;
+}
+.gnb{
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    width: 100%;
+    text-shadow: 0px 1px 1px #25ab5e;
+}
+.gnb li{
+    display: block;
+    margin-left: 5.2083333%;
+    background: none;
 
-    }
-    .nav{
-        display: flex;
-        align-items: center;
-        position: static;
-        width: 87.5%;
-    }
-    .gnb{
-        display: flex !important;
-        flex-direction: row;
-        position: static;
-        width: 100%;
-        text-shadow: 0px 1px 1px #25ab5e;
-    }
-    .gnb li{
-        display: block;
-        margin-left: 5.2083333%;
-        background: none;
-
-    }
-    .gnb li a{
-        width: auto;
-        padding: 0;
-        text-indent: 0;
-    }
-    .gnb li span{
-        display: none;
-    }
-    .menu_toggle_btn{
-        display: none;
-    }
+}
+.gnb li a{
+    width: auto;
+    padding: 0;
+    text-indent: 0;
+}
+.gnb li span{
+    display: none;
+}
+.menu_toggle_btn{
+    display: none;
+}
 }
 
 </style>
