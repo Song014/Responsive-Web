@@ -49,4 +49,4 @@ Do it! 반응형 웹 만들기 책 따라하기
         * facebook
         * google
 * footer_section
-  * coptright
+  * copyright
