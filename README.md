@@ -15,14 +15,14 @@ Do it! 반응형 웹 만들기 책 따라하기
 
 * header
   * logo
-    * nav
-      * home
-        * introduce
-        * gallery
-        * board
+  * nav
+    * home
+    * introduce
+    * gallery
+    * board
 * slider_section
   * prev_btn
-    * next_btn
+  * next_btn
 * latest_post_section
   * latest_post_list
     * li
