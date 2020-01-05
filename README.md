@@ -2,52 +2,13 @@
 
 Do it! 반응형 웹 만들기 책 따라하기
 
-## index.html
+## 플렉서블 박스
 
-첫 화면으로 아래 영역들을 모바일버전 테블릿버전 pc버전마다 다르게 대응하는 반응형 웹페이지
+ 부모 박스 와 자식 박스로 나뉘어 각각 플렉서블 박스 플렉스 아이템이라고 부른다
+ 플렉스 아이템의 배치 방향을 행과 열로 나누어 정할수 있다
 
-* info section
-  * info_list
-    * home
-    * login
-    * my
-    * sch
+ 기본적인 사용 방법은  부모 박스의 display 속성에 flex(블록) 또는 inline-flex(인라인)를 지정해준다
+ 
+ 배치 방향의경우 flex-direction 속성에 row(기본값),row-reverse,column,column-reverse 로 가로, 세로, 역방향을 정할 수 있다
 
-* header
-  * logo
-  * nav
-    * home
-    * introduce
-    * gallery
-    * board
-* slider_section
-  * prev_btn
-  * next_btn
-* latest_post_section
-  * latest_post_list
-    * li
-    * ...
-* popular_post_section
-  * popular_post_list
-    * li
-    * ...
-* gallery_section
-  * gallery_list
-    * jpg1
-    * jpg2
-    * ...
-* rankup_section
-  * rankup_list
-    * 검색어1
-    * 검색어2
-* banner_section
-  * banner_list
-    * banner_01
-    * banner_02
-* social_section
-  * social_list
-    * twiter
-    * facebook
-    * google
-* footer_section
-  * copyright
+
